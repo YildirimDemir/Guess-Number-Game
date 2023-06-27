@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #222;
+}
+
+header{
+    height: 35vh;
+    width: 100%;
+    position: relative;
+}
+
+header h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00fd3f;
+    text-shadow: 5px 5px 5px #008f1d;
+}
+
+#again{
+    position: relative;
+    float: left;
+    top: 3rem;
+    left: 3rem;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #00fd3f;
+    background: #222;
+    color: #00fd3f;
+    box-shadow: 5px 5px 5px #008f1d, -2px -2px 5px #008f1d;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    transition: .4s;
+}
+#again:hover{
+    box-shadow: 8px 8px 8px #008f1d, -8px -8px 8px #008f1d;
+    text-shadow: 1px 1px 1px #008f1d;
+}
+
+#between{
+    position: relative;
+    float: right;
+    top: 4rem;
+    right: 3rem;
+    color: #00fd3f;
+}
+
+#number{
+    height: 20vh;
+    width: 20vh;
+    outline: none;
+    border: 5px solid #00fd3f;
+    text-align: center;
+    padding-top: 50px;
+    left: 44%;
+    position: absolute;
+    font-size: 4rem;
+    color: #fff;
+}
+
+#check{
+    left: 45.7%;
+    top: 60%;
+    position: absolute;
+    width: 15vh;
+    height: 6vh;
+    background: #00fd3f;
+    color: #222;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: .4s;
+}
+
+#check:hover{
+    box-shadow: 8px 8px 8px #008f1d, -8px -8px 8px #008f1d;
+    text-shadow: 1px 1px 1px #008f1d;
+}
+
+.left{
+    position: absolute;
+    float: left;
+    left: 5%;
+    top: 60%;
+}
+
+.left h4{
+    position: absolute;
+    left: 20px;
+    bottom: 90px;
+    color: #00fd3f;
+}
+
+#guess{
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    border: 3px solid #00fd3f;
+    background: #222;
+    color: #00fd3f;
+    padding: 10px;
+    font-size: 2rem;
+    outline: none;
+    box-shadow: 5px 5px 5px #008f1d, -2px -2px 5px #008f1d;
+}
+
+.right{
+    position: absolute;
+    float: right;
+    right: 5%;
+    top: 55%;
+}
+
+.right p{
+    margin-bottom: 40px;
+    color: #00fd3f;
+}
